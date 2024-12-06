@@ -31,7 +31,7 @@ This project is a **Node.js API** designed to manage courses. It provides endpoi
    npm start
    ```
 
-## Endpoints
+## Courses Endpoints
 
 ### 1. Get All Courses
 - **URL**: `/api/courses`
@@ -47,8 +47,22 @@ This project is a **Node.js API** designed to manage courses. It provides endpoi
 
 ### 4. Update a Course
 - **URL**: `/api/courses/:id`
-- **Method**: `PUT`
+- **Method**: `PATCH`
 
 ### 5. Delete a Course
 - **URL**: `/api/courses/:id`
 - **Method**: `DELETE`
+
+## Users Endpoints
+
+### 1. Get All Users
+- **URL**: `/api/users`
+- **Method**: `GET`
+
+### 2. Create User
+- **URL**: `/api/users/register`
+- **Method**: `POST`
+
+### 3. User Login
+- **URL**: `/api/users/login`
+- **Method**: `POST`
