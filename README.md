@@ -16,11 +16,11 @@ This project is a **Node.js API** designed to manage courses. It provides endpoi
 ## Installation and Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/3laaElsadany/node_courses.git
+   git clone https://github.com/3laaElsadany/node_courses_api.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd node_courses
+   cd node_courses_api
    ```
 3. Install dependencies:
    ```bash
